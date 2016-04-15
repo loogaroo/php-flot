@@ -1,0 +1,23 @@
+{
+    "name": "loogaroo/php-flot",
+    "description": "PHP Interface for javascript library flot",
+    "keywords": ["php oop", "php framework", "html5 graph"],
+    "homepage": "https://github.com/loogaroo/php-flot",
+    "license": "MIT",
+     "type": "library",
+     "authors": [
+        {
+            "name": "Emmanuel FAIVRE",
+            "email": "manu@loogaroo.net",
+            "homepage": "http://loogaroo.net/"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    	"phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-0": { "PhpFlot": "src/" }
+    }
+}
