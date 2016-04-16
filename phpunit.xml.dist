@@ -3,7 +3,7 @@
 <phpunit bootstrap="./tests/bootstrap.php" colors="true">
     <testsuites>
         <testsuite name="PHP-Flot Test Suite">
-            <directory suffix="Test.php">./tests/PhpFlot/Test/</directory>
+            <directory suffix="Test.php">./src/PhpFlot/Test/</directory>
         </testsuite>
     </testsuites>
 
