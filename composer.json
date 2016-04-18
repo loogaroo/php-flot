@@ -3,6 +3,7 @@
     "description": "PHP Interface for javascript library flot",
     "keywords": ["php oop", "php framework", "html5 graph"],
     "homepage": "https://github.com/loogaroo/php-flot",
+    "version": "0.1.1",
     "license": "MIT",
      "type": "library",
      "authors": [
