@@ -12,6 +12,21 @@
 namespace PhpFlot;
 
 class AbstractGraph {
+	
 	protected $id='graph1';
 	protected $attributes=array();
+	protected $class='';
+	
+	public function getClass() {
+		return $this->class;
+	}
+	public function setId($id) {
+		$this->id=$id;
+	}
+	public function getId() {
+		return $this->id;
+	}
+	public function __toString() {
+		return '<div id="'.$this->getId().'" class="'.$this->getClass().'"></div>';
+	}
 }
